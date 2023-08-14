@@ -1,0 +1,32 @@
+
+Agenda:-
+-------
+
+Problem statement:-
+-----------------
+	Let's say your company is still in Java 5/6/7  and not ready to move to Java 8 quickly
+		but they are expecting to avail java 1.8 New Date and Time API Features in the 
+		existing project, How can you help them to achieve?
+
+Solution 1:
+----------
+ 	Try to use the Joda time artifact in your existing application
+
+<dependency>
+    <groupId>joda-time</groupId>
+    <artifactId>joda-time</artifactId>
+    <version>2.9.4</version>
+</dependency>
+
+
+Solution 2:
+----------
+ 	Try to use the ThreeTen project artifact in your existing application
+ 	
+<dependency>
+    <groupId>org.threeten</groupId>
+    <artifactId>threetenbp</artifactId>
+    <version>1.3.1</version>
+</dependency>
+
+
